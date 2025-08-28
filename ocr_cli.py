@@ -7,7 +7,7 @@ import pyheif
 def load_image(image_path):
     """
     Loads an image from a file, discerning the format by its extension.
-    Supports JPG, PNG, and HEIC/HEIF file types.
+    Supports JPG, PNG, and HEIC/HEIF file types. 
     """
     ext = os.path.splitext(image_path)[1].lower()
 
